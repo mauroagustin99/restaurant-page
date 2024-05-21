@@ -2,7 +2,7 @@
 
 ## Welcome to my Restaurant Homepage project! 🎉
 
-I've just finished an awesome course where I learned all about webpack, and I'm super excited to put my new skills to the test. This project will showcase a beautiful, dynamic homepage for a restaurant, styled with CSS.
+I've just finished an awesome *The Odin Project section* where I learned all about webpack, and I'm super excited to put my new skills to the test. This project will showcase a beautiful, dynamic homepage for a restaurant, styled with CSS.
 
 ## What's the plan?
 
