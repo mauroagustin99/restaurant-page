@@ -4,7 +4,8 @@
   "description": "I've just finished an awesome *The Odin Project section* where I learned all about webpack, and I'm super excited to put my new skills to the test. This project will showcase a beautiful, dynamic homepage for a restaurant, styled with CSS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
