@@ -2,13 +2,23 @@
 
 ## Welcome to my Restaurant Homepage project! 🎉
 
-I've just finished an awesome *The Odin Project section* where I learned all about webpack, and I'm super excited to put my new skills to the test. This project will showcase a beautiful, dynamic homepage for a restaurant, styled with CSS.
+I've just finished an awesome _The Odin Project section_ where I learned all about webpack, and I'm super excited to put my new skills to the test. This project will showcase a beautiful, dynamic homepage for a restaurant, styled with CSS.
 
 ## What's the plan?
 
 ### 📦 Setting Up with Webpack
 
 I'll be using webpack to bundle all my assets. This is going to help me manage and optimize the various parts of the project, making everything run smoothly.
+
+#### Annotations
+
+**Used loaders and plugins:**
+`npm install --save-dev style-loader css-loader clean-webpack-plugin html-webpack-plugin`
+
+**It´s important to config 'webpack.config.js' after install those plugins**
+
+**How to use devServer**
+`npm run start`
 
 ### 🎨 CSS for Styling
 
