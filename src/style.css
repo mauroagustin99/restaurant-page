@@ -22,18 +22,41 @@ body::before {
   z-index: -1; /* This is to make sure that the overlay is behind the content */
 }
 
-.active {
-  background-color: #4b0082;
-}
-
 header {
-  background-color: red;
+  background-color: #a52a2a;
   display: flex;
-
-  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
 }
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.nav-btn {
+  background-color: #4b0082; /* Color de fondo de los botones */
+  color: white; /* Color del texto */
+  border: none; /* Elimina el borde */
+  padding: 10px 20px; /* Espaciado interior */
+  margin-right: 10px; /* Margen derecho entre botones */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+.nav-btn:hover {
+  background-color: #6a5acd; /* Cambia el color de fondo al pasar el ratón */
+}
+.active {
+  background-color: #ffd700;
+}
+
 #content {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Sombreado */
   display: flex;
   flex-direction: column;
   margin: 25px auto;
@@ -50,6 +73,7 @@ footer {
   bottom: 0;
   width: 100%;
   flex-shrink: 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
 }
 
 footer a {
