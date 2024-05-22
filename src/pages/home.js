@@ -1,22 +1,9 @@
 export default function Home() {
   const content = document.getElementById('content');
-  content.innerHTML = '';
 
-  content.innerHTML = `<h1>Welcome to My Restaurant Page</h1>`;
-  const homeDiv = document.createElement('div');
-  homeDiv.classList.add('main');
-
-  const heroText = document.createElement('div');
-  heroText.classList.add('hero-text');
-
-  const headline = document.createElement('h2');
-  headline.textContent = 'Meet, Eat and Enjoy True Taste';
-
-  const imgCont = document.createElement('div');
-  imgCont.classList.add('hero-image');
-
-  homeDiv.appendChild(heroText);
-  heroText.appendChild(headline);
-  homeDiv.appendChild(imgCont);
-  content.appendChild(homeDiv);
+  content.innerHTML = `<h1 class="title">Welcome to La Pampa y Sabor!</h1>
+  <p class="text">Experience the vibrant fusion of Argentine and Peruvian cuisine right here in the heart of the city. At La Pampa y Sabor, we bring you the best of both worlds, from succulent steaks to exquisite ceviche. Whether you're looking for a romantic dinner or a family gathering, our warm and inviting atmosphere will make you feel right at home.</p>
+  <h2 class="subtitle">Join us for a culinary journey across Argentina and Peru.</h2>
+  <p class="end text">Discover our story and passion for great food.</p>
+  `;
 }
