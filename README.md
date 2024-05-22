@@ -1,5 +1,7 @@
 # 🍽️ Restaurant Homepage
 
+[Live Preview 👈](https://mauroagustin99.github.io/resturant-page/)
+
 ## Welcome to my Restaurant Homepage project! 🎉
 
 I've just finished an awesome _The Odin Project section_ where I learned all about webpack, and I'm super excited to put my new skills to the test. This project will showcase a beautiful, dynamic homepage for a restaurant, styled with CSS.
