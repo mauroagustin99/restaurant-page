@@ -1,4 +1,5 @@
 export default function Home() {
+  //I'll use .innerHTML to show a easy method to make the page just writing text
   const content = document.getElementById('content');
 
   content.innerHTML = `<h1 class="title">Welcome to La Pampa y Sabor!</h1>

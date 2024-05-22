@@ -1,0 +1,28 @@
+/*Menu*/
+.appetizer {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+.menu-container {
+  display: grid;
+  grid-template-rows: 0.1fr 1fr 0.1fr 1fr 0.1fr 1fr;
+}
+.section-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.menu-item-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.menu-text {
+  margin: 5px 0;
+}
