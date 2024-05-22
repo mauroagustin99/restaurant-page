@@ -19,3 +19,7 @@
 .menu-text {
   margin: 5px 0;
 }
+
+.menu-title {
+  font-weight: bold;
+}

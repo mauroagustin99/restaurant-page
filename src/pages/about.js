@@ -1,6 +1,6 @@
 export default function Menu() {
   const content = document.getElementById('content');
-
+  //I'll use .innerHTML to show a easy method to make the page just writing text
   content.innerHTML = `<h1 class="title">About Us</h1>
   <p class="text">La Pampa y Sabor was founded with a passion for bringing the rich culinary traditions of Argentina and Peru to the local community. Inspired by the diverse flavors of these two countries, our restaurant aims to deliver an unforgettable dining experience.</p>
   <h2 class="subtitle">Our Story</h2>

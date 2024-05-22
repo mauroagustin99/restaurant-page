@@ -1,5 +1,6 @@
 import './style.css';
 import './menu.css';
+
 import Background from './woman-taking-marinated-beef-served-with-onion-sumac-herbs.jpg';
 import Home from './pages/home.js';
 import Contact from './pages/contact.js';
