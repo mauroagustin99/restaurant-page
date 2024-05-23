@@ -1,25 +1,25 @@
 {
-  "name": "resturant-page",
+  "name": "restaurant-page",
   "version": "1.0.0",
   "description": "I've just finished an awesome *The Odin Project section* where I learned all about webpack, and I'm super excited to put my new skills to the test. This project will showcase a beautiful, dynamic homepage for a restaurant, styled with CSS.",
   "main": "index.js",
+  "homepage": "http://mauroagustin99.github.io/restaurant-page",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauroagustin99/restaurant-page"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
     "build": "webpack",
-    "gitpush": "git subtree push --prefix dist origin gh-pages",
+    "predeploy":"npm run build",
     "deploy": "gh-pages -d dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mauroagustin99/resturant-page.git"
   },
   "author": "Mauro Marcosano",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mauroagustin99/resturant-page/issues"
+    "url": "https://github.com/mauroagustin99/restaurant-page/issues"
   },
-  "homepage": "https://github.com/mauroagustin99/resturant-page#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^7.1.1",
