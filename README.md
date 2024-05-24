@@ -1,6 +1,6 @@
 # 🍽️ Restaurant Homepage
 
-[Live Preview 👈](https://mauroagustin99.github.io/resturant-page/)
+[Live Preview 👈](https://mauroagustin99.github.io/restaurant-page/)
 
 ## Welcome to my Restaurant Homepage project! 🎉
 
